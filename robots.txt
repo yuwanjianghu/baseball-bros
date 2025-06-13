@@ -1,0 +1,12 @@
+# Allow all web crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://baseballbros.xyz/sitemap.xml
+
+# Disallow crawling of assets directory
+Disallow: /assets/
+
+# Crawl-delay for all bots
+Crawl-delay: 10 
